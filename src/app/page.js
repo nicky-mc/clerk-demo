@@ -5,54 +5,56 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
+          className="rounded-full border border-solid border-pink-500"
+          src="/fail.jpeg"
+          alt="Trans-related theme image"
           width={180}
-          height={38}
+          height={180}
           priority
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] text-pink-600 dark:text-white">
           <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
+            Start by exploring the challenges and triumphs of the trans
+            community.
+            <code className="bg-pink-100 dark:bg-blue-200 px-1 py-0.5 rounded font-semibold">
+              Learning and support are key.
             </code>
-            .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>
+            Join a movement that advocates for equal rights and visibility.
+          </li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-blue-400 text-white gap-2 hover:bg-blue-500 dark:hover:bg-blue-300 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            href="https://transequality.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
+              className="rounded"
+              src="/globe.svg"
+              alt="Globe icon"
               width={20}
               height={20}
             />
-            Deploy now
+            Learn More
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="rounded-full border border-solid border-pink-400 transition-colors flex items-center justify-center hover:bg-pink-200 dark:hover:bg-pink-300 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            href="https://mermaidsuk.org.uk/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read our docs
+            Support Trans Youth
           </a>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4 text-blue-500"
+          href="https://www.stonewall.org.uk/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -63,11 +65,11 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Learn
+          Trans Rights Information
         </a>
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4 text-pink-500"
+          href="https://www.glaad.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -78,11 +80,11 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Examples
+          GLAAD Trans Resources
         </a>
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4 text-blue-500"
+          href="https://www.transgenderlegal.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -93,7 +95,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          Trans Legal Resources →
         </a>
       </footer>
     </div>
