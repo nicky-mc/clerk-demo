@@ -10,8 +10,13 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.7.5",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.5",
     "daisyui": "^4.12.13",
+    "fs": "^0.0.1-security",
     "next": "15.0.0",
+    "path": "^0.12.7",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-dom": "19.0.0-rc-65a56d0e-20241020"
   },
